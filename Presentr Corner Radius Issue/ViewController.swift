@@ -94,8 +94,7 @@ public let cardDismissable: Presentr = {
     presenter.cornerRadius = (UIScreen.main.bounds.width - 32) * 0.03
     presenter.dismissOnSwipe = true
     presenter.dismissAnimated = true
-    presenter.backgroundOpacity = 0.3
-    presenter.backgroundColor = .black
+    presenter.backgroundOpacity = 0
     return presenter
 }()
 
